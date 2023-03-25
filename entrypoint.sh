@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+UUID=${UUID:-'1a74edfd-7094-4cac-9374-38f779fe0429'}
 VMESS_WSPATH=${VMESS_WSPATH:-'/vm'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/vl'}
 TROJAN_WSPATH=${TROJAN_WSPATH:-'/tr'}
