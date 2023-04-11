@@ -5,6 +5,10 @@ VMESS_WSPATH=${VMESS_WSPATH:-'/vm'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/vl'}
 TROJAN_WSPATH=${TROJAN_WSPATH:-'/tr'}
 SS_WSPATH=${SS_WSPATH:-'/ss'}
+# 哪吒三个参数，不需要的话可以留空，删除或在这三行最前面加 # 以注释
+NEZHA_SERVER=flynezha.fly.dev 
+NEZHA_PORT=5555
+NEZHA_KEY=RkKYxLUceFTfY9CADv
 
 generate_config() {
   cat > config.json << EOF
