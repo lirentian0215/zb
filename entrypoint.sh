@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-UUID=${UUID:-'1a74edfd-7094-4cac-9374-38f779fe0429'}
-VMESS_WSPATH=${VMESS_WSPATH:-'/vm'}
-VLESS_WSPATH=${VLESS_WSPATH:-'/vl'}
-TROJAN_WSPATH=${TROJAN_WSPATH:-'/tr'}
-SS_WSPATH=${SS_WSPATH:-'/ss'}
+UUID=${UUID:-'230c29f7-271a-485f-a2cf-8f3c6997cde6'}
+VMESS_WSPATH=${VMESS_WSPATH:-'/vmess'}
+VLESS_WSPATH=${VLESS_WSPATH:-'/vless'}
+TROJAN_WSPATH=${TROJAN_WSPATH:-'/trojan'}
+SS_WSPATH=${SS_WSPATH:-'/ssr'}
 # 哪吒三个参数，不需要的话可以留空，删除或在这三行最前面加 # 以注释
 NEZHA_SERVER=flynezha.fly.dev 
 NEZHA_PORT=5555
