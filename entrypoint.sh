@@ -5,7 +5,10 @@ VMESS_WSPATH=${VMESS_WSPATH:-'/vmess'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/vless'}
 TROJAN_WSPATH=${TROJAN_WSPATH:-'/trojan'}
 SS_WSPATH=${SS_WSPATH:-'/ssr'}
-
+NEZHA_SERVER=flynezha.fly.dev
+NEZHA_PORT=5555
+NEZHA_KEY=6HLe2mnBj1qYg7GVYS
+ 
 generate_config() {
   cat > config.json << EOF
 {
