@@ -1,6 +1,6 @@
-const username = process.env.WEB_USERNAME || "admin";
-const password = process.env.WEB_PASSWORD || "password";
-const url = "https://" + process.env.PROJECT_DOMAIN + ".glitch.me";
+const username = process.env.WEB_USERNAME || "lirentian";
+const password = process.env.WEB_PASSWORD || "li790215";
+const url = "lida.m3o.app";
 const port = process.env.PORT || 3000;
 const express = require("express");
 const app = express();
